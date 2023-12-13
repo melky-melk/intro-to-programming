@@ -1,0 +1,13 @@
+Input							            Expected Output		Justification
+["Mewtwo", "Ditto", "Mew"], 4	            "Mew"				Positive case: only one string shorter than limit
+["aaa", "bbb", "ccccc"], 4    	            "aaa"				Positive case: two is shorter than the limit but aaa appears first
+["a", "bbb", "ccccc"], 4    	            "bbb"				Positive case: returns bbb because bbb is longer than a which is the only other string that is within the limit
+
+["aaaaa", "bbbb", "cccc"], 1                ""                  Negative case: it doesnt find any solution from your inputs
+420, 69                                     None                Negative case: since 420 is not a list of strings then the program should return None                           
+["420"], "69"                               None                Negative case: since "69" is not an integer then the program should return None                           
+[1,2,3], 4                                  None                Negative case: since [1,2,3] is a list but not of type string it should reject and return none                           
+
+["aaa", "bbb", "ccc"], -4                   ""                  Edge case: since it is a negative number we expect that none of the strings will be less than the limit therefore it should be an empty string
+["aaa"], 0                                  ""                  Edge case: since it is a 0 we expect that none of the strings will be less than the limit therefore it should be an empty string
+[""], 5                                     ""                  Edge case: our list of strings only contains an empty string then we expect the program to return an empty string because it is the longest under

@@ -1,0 +1,27 @@
+a       b       a and b
+False   False   False
+False   True    False
+True    False   False
+True    True    True
+
+a       b       a or b
+False   False   False
+False   True    True
+True    False   True
+True    True    True
+
+we can see that this is sort of similar to the a or b statement, but just flipped around. 
+False and False is True. but every combination of True value gives False
+a       b       (not a) and (not b)
+False   False   True
+False   True    False
+True    False   False
+True    True    False
+
+if we negate the earlier statement of ((not a) and (not b)). then we are able to create a version of the or statement using only "not" and "and" statements. So instead of False and False giving true, False and False gives False. 
+Instead of every combination with True giving False, every combination with True gives True
+a       b       not ( (not a) and (not b) )
+False   False   False
+False   True    True
+True    False   True
+True    True    True

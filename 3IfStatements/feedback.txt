@@ -1,0 +1,7 @@
+Couple things to note before i recap the lecture:
+- please make sure that you upload the pdf and press MARK whenever you are submitting your lab participations, i had to mark a lot of people down because of missing flow charts
+- there should be feedback on each of your lab participations if i docked you marks for something, if you are still confused on why i marked you down or how to do better let me know
+- When doing flowcharts please use the correct shapes and things like that
+	- A lot of people said yes or no when doing the arrows out of a decision point, id rather it would be true or false. its not a huge issue i wont mark you down its just something to keep in mind because i dont know how harshly people mark in the exams
+- PLEASE tell me if im going too fast or if you need help
+- if anyone is uncomfortable asking questions in class i have an email chiara.tan@sydney.edu.au and will try to get back to you

@@ -1,0 +1,11 @@
+hold alt and do the up and down keys to move certain lines up and down
+
+press up on your terminal to repeat the most recent command you gave it
+
+press tab on the terminal to autocomplete the thing you are trying to write
+
+hold ctrl and alt 
+to write multiple things at once
+to write multiple things at once
+to write multiple things at once
+
